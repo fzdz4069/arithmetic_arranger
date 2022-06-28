@@ -94,4 +94,3 @@ def arithmetic_arranger(problems, display=False):
                     res = "{:>" + str(x) + "}"
                     print(res.format(str(int(args_a[d]) - int(args_b[d]))), end="    ")
                 d += 1
-        print("\n\n")
